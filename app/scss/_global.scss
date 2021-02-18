@@ -12,3 +12,9 @@ body{
 	line-height: 24px;
 	color: $text;
 }
+.title{
+	@extend %arvo-700;
+	color: $title;
+	font-size: 46px;
+	line-height: 52px;
+}
