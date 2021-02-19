@@ -18,3 +18,9 @@ body{
 	font-size: 46px;
 	line-height: 52px;
 }
+.title-junior{
+	@extend %arvo-400;
+	color: $title;
+	font-size: 46px;
+	line-height: 52px;
+}
