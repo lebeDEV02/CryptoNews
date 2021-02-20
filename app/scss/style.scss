@@ -5,6 +5,7 @@
 
 .header{
 	background-color: $bg;
+	color: $text;
 	&__inner{
 		padding: 20px 0;
 		display: flex;
@@ -49,9 +50,6 @@
 	&__title{
 		margin-bottom: 100px;
 		text-align: center;
-	}
-	&__items{
-		
 	}
 	&__item{
 		display: flex;
@@ -145,5 +143,20 @@
 		&+&{
 			margin-left: 20px;
 		}
+	}
+}
+.articles{
+	padding: 50px 0;
+	&__inner{
+		display: flex;
+	}
+	&__sidebar{
+		max-width: 500px;
+		width:100%;
+	}
+	&__items{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 20px;
 	}
 }
