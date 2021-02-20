@@ -154,9 +154,32 @@
 		max-width: 500px;
 		width:100%;
 	}
+	&__title{
+		margin-bottom: 20px;
+	}
+	&__about{
+		font-size: 28px;
+		@extend %lato-700;
+		line-height: 34px;
+		margin-bottom: 40px;
+	}
+	&__button{
+		padding: 15px 25px;
+		color: $title;
+		 @include btn-border-slide($title, $accent, 2px, 0.8s);
+		font-size: 24px;
+	}
 	&__items{
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		grid-gap: 20px;
+	}
+	&__item-title{
+		margin: 10px 0;
+		font-size: 24px;
+		color: $title;
+	}
+	&__item-descr{
+		font-size: 18px;
 	}
 }

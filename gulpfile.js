@@ -57,7 +57,6 @@ function browsersync() {
 			baseDir: "app/"
 		},
 		notify: false,
-		online: true
 	});
 }
 function styles() {
