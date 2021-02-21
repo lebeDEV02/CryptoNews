@@ -17,6 +17,10 @@
 		display: block;
 		color: $text;
 		line-height: 46px;
+		transition: all .3s;
+		&:hover{
+			transform: rotateZ(-5deg);
+		}
 	}
 	&__inner-menu{
 		display: flex;
@@ -56,6 +60,11 @@
 		background-color: #fff;
 		margin-right: 30px;
 		justify-content: space-between;
+		&:hover{
+			.news-section__item-title{
+				color: $accent;
+			}
+		}
 		&+&{
 			margin-top: 50px;
 		}
@@ -64,6 +73,7 @@
 		font-size: 28px;
 		line-height: 46px;
 		color: $title;
+				transition: all .3s;
 	}
 	&__item-text{
 		color: #000;
@@ -102,6 +112,7 @@
 }
 .new-body{
 	padding: 50px 0 20px;
+	margin: 0 auto;
 	&__img{
 		margin: 0 auto;
 	width: 800px;
@@ -145,7 +156,7 @@
 		}
 	}
 }
-.articles{
+.tech-news{
 	padding: 50px 0;
 	&__inner{
 		display: flex;
@@ -163,23 +174,166 @@
 		line-height: 34px;
 		margin-bottom: 40px;
 	}
+	&__img{
+		transition: all .3s;
+	}
 	&__button{
-		padding: 15px 25px;
+		padding: 15px 50px;
 		color: $title;
-		 @include btn-border-slide($title, $accent, 2px, 0.8s);
-		font-size: 24px;
+		 @include btn-border-slide($title, $accent, 3px, 0.8s);
+		font-size: 28px;
 	}
 	&__items{
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
-		grid-gap: 20px;
+		grid-gap: 30px;
+	}
+	&__item{
+				position: relative;
+		&:hover{
+			.tech-news__item-title{
+				color: $accent;
+			}
+			img{
+				transform: scale(1.03);
+			}
+		}
 	}
 	&__item-title{
 		margin: 10px 0;
+		transition: all .3s;
 		font-size: 24px;
 		color: $title;
 	}
 	&__item-descr{
 		font-size: 18px;
+	}
+}
+.crypto-price{
+	max-width: 100% !important;
+}
+.footer{
+	padding: 50px 0;
+	background-color:$bg;
+	color: $text;
+	&__inner{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo{
+		font-size: 48px;
+		display: block;
+		color: $text;
+		line-height: 46px;
+	}
+	&__social-items{
+		display: flex;
+		align-items: center;
+	}
+	&__social-link{
+		display: block;
+	}
+	&__social-item{
+		transition: all .3s;
+		&+&{
+			margin-left: 25px;
+		}
+		transform: translateY(0deg);
+		path{
+			fill: $text !important;
+					transition: all .3s;
+		}
+		&:hover{
+		transform: scale(1.2, 1.2);
+			path{
+				fill: $accent !important;
+			}
+		}
+	}
+}
+.articles{
+	position: relative;
+	&__item-title{
+		font-size: 30px;
+		margin-bottom: 20px;
+		line-height: 36px;
+	}
+	&__top{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		align-items: flex-end;
+	}
+	&__top-inscription{
+		font-size: 28px;
+		color: $title;
+	}
+	&__top-link{
+		color: $title;
+		font-weight: 700;
+		position: relative;
+		padding-right: 30px;
+		&::after{
+			content: '';
+			position: absolute;
+			background-image: url('../images/icons/arrow-right.svg');
+			background-repeat: no-repeat;
+			width: 13px;
+			height: 14px;
+			right: 10px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	&__items{
+		display: none;
+		 justify-content: space-between;
+		 margin-bottom: 30px;
+	}
+	&__items--active{
+		transition: all .3s;
+		transform: translateX(0%);
+		display: flex;
+		 justify-content: space-between;
+		 align-items: baseline;
+		 margin-bottom: 30px;
+	}
+	&__angle-left,
+	&__angle-right{
+		position: absolute;
+		width: 25px;
+		height: 55px;
+		cursor: pointer;
+						top: 50%;
+		transform: translateY(-50%);
+	}
+	&__angle-left{
+		left: -40px;
+	}
+	&__angle-right{
+		right: -40px;
+	}
+	&__item{
+		max-width: 400px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		height: 320px;
+		background-color: #98d9ffbe;
+		border-radius: 15px;
+		padding: 10px 20px;
+	}
+	&__item-descr{
+		margin-bottom: 10px;
+		line-height: 28px;
+		flex: 1 0 auto;
+	}
+	&__item-button{
+		color: $title;
+		font-weight: 700;
+		transition: all .3s;
+		&:hover{
+			color: $accent;
+		}
 	}
 }

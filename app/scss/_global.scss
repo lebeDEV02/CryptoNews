@@ -1,12 +1,13 @@
 html, body{
 	height: 100px;
+	
 }
 body{
 	display: flex;
 	flex-direction: column;
 }
 main{
-	flex-grow:1;
+	flex: 1 0 auto;
 }
 .container{
 	max-width: 1750px;
