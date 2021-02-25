@@ -1,38 +1,148 @@
+html {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+ul[class], ol[class] {
+	padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+
+ul[class] {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+input, button, textarea, select {
+	font: inherit;
+}
+
+body {
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+html, .App {
+	height: 100%;
+}
+
 .App {
-  text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+	flex: 1 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+	max-width: 1750px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+	background-color: #090909;
+	color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.header__inner {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header__inner-logolink {
+	font-size: 48px;
+	display: block;
+	color: #fff;
+	line-height: 46px;
+	transition: all .3s;
+}
+
+.header__inner-logolink:hover {
+	transform: rotateZ(-5deg);
+}
+
+.header__inner-menu {
+	display: flex;
+}
+
+.header__inner-item+.header__inner-item {
+	margin-left: 25px;
+}
+
+.header__inner-link {
+	color: #fff;
+	font-size: 20px;
+	transition: all .3s;
+}
+
+.header__inner-link:hover {
+	color: rgb(255, 75, 75);
+}
+
+.footer {
+	padding: 50px 0;
+	background-color: #090909;
+	color: #fff;
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	font-size: 48px;
+	display: block;
+	color: #fff;
+	line-height: 46px;
+}
+
+.footer__social-items {
+	display: flex;
+	align-items: center;
+}
+
+.footer__social-link {
+	display: block;
+}
+
+.footer__social-item {
+	transition: all .3s;
+	transform: translateY(0deg);
+}
+
+.footer__social-item+.footer__social-item {
+	margin-left: 25px;
+}
+
+.footer__social-item path {
+	fill: #fff !important;
+	transition: all .3s;
+}
+
+.footer__social-item:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.footer__social-item:hover path {
+	fill: rgb(255, 75, 75) !important;
 }
