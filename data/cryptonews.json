@@ -1,0 +1,46 @@
+{
+	"news": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Bill Gates says cryptocurrency is one innovation the world could do without",
+			"description": "I don't really have it, i prefer more digital tools",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Blockchain.com raised $ 120 million in investments",
+			"description": "Cryptocurrency wallet provider Blockchain.com has raised $ 120 million in funding from macro investors including Moore Strategic Ventures, Google Ventures, Lightspeed Venture Partners and others.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Bitcoin Climbs Above $52,000 as Musk Backs Crypto Over Cash",
+			"description": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,000 range. Bitcoin is moving higher on continued institutional…",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		}
+	]
+}

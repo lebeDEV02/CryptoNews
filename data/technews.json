@@ -1,0 +1,46 @@
+{
+	"news": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Margaret Mitchell: Google fires AI ethics founder",
+			"description": "Google has fired the founder and co-head of its artificial intelligence ethics unit, claiming she violated the company's code of conduct.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/Depositphotos_174193090_s-2019.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Nvidia limits crypto-mining on new graphics card",
+			"description": "Graphics card-maker Nvidia says it will deliberately reduce the efficiency of its latest card by 50% when it is used to mine the crypto-currency Ethereum.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Tech Tent: Facebook v Australia - two sides to the story",
+			"description": "The battle between the Australian government and the tech giants over a law which would make them for news content has been rumbling on for a while.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		}
+	]
+}

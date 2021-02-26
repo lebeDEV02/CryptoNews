@@ -1,6 +1,14 @@
+import CryptoNews from './CryptoNews';
+import TechNews from './TechNews';
+import Articles from './Articles';
 const Main = () => {
 	return (
-		<main className="main">
+		<main classNameName="main">
+			<div className="container">
+				<CryptoNews></CryptoNews>
+				<TechNews></TechNews>
+				<Articles></Articles>
+			</div>
 		</main>
 	)
 }
