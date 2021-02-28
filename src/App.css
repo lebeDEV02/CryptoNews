@@ -502,3 +502,38 @@ main {
 	transition: transform .8s cubic-bezier(0.4, 0, 0.2, 1);
 	transition: transform .8s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform .8s cubic-bezier(0.4, 0, 0.2, 1)
 }
+
+.login {
+	text-align: center;
+	margin-top: 20px;
+	max-width: inherit;
+}
+
+.login label {
+	text-align: left;
+	display: block;
+}
+
+.login h2 {
+	font-size: 32px;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.login input, .login textarea {
+	padding: 6px 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	display: block;
+	resize: none;
+}
+
+.login button {
+	background: #000;
+	color: #fff;
+	border: 0;
+	padding: 8px;
+	border-radius: 8px;
+	cursor: pointer;
+}

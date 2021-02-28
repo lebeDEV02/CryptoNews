@@ -1,5 +1,5 @@
 {
-	"news": [
+	"cryptonews": [
 		{
 			"id": 1,
 			"source": "newsBTC",
@@ -38,6 +38,108 @@
 			"author": "Nick Chong",
 			"title": "Bitcoin Climbs Above $52,000 as Musk Backs Crypto Over Cash",
 			"description": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,000 range. Bitcoin is moving higher on continued institutional…",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		}
+	],
+	"technews": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Margaret Mitchell: Google fires AI ethics founder",
+			"description": "Google has fired the founder and co-head of its artificial intelligence ethics unit, claiming she violated the company's code of conduct.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/Depositphotos_174193090_s-2019.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Nvidia limits crypto-mining on new graphics card",
+			"description": "Graphics card-maker Nvidia says it will deliberately reduce the efficiency of its latest card by 50% when it is used to mine the crypto-currency Ethereum.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Tech Tent: Facebook v Australia - two sides to the story",
+			"description": "The battle between the Australian government and the tech giants over a law which would make them for news content has been rumbling on for a while.",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		}
+	],
+	"articles": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "How to buy bitcoin?",
+			"description": "Bitcoins can be bought for US dollars, euros or another fiat or cryptocurrency on a crypto exchange, directly from other individuals, or using a special ATM. It’s good to know that you can buy fractions of a bitcoin. So you don’t have to...",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Can I Create My Own Cryptocurrency?",
+			"description": ">Sure! You don’t even need to be a programmer to create your own cryptocurrency. Several existing blockchain platforms let you to make your own currency – as a community coin, a joke, or for any other reason. They make creating a...",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "How do cryptocurrencies differ?",
+			"description": "The main differences relate to how coins are produced and spent. Some coins, like Bitcoin, Dash and Monero, are created in a process called “mining” which involves using powerful computers to solve complicated cryptographic puzzles. When...",
+			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+		},
+		{
+			"id": 4,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "How do cryptocurrencies differ?",
+			"description": "The main differences relate to how coins are produced and spent. Some coins, like Bitcoin, Dash and Monero, are created in a process called “mining” which involves using powerful computers to solve complicated cryptographic puzzles. When...",
 			"coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
 			"publishedAt": "2021-02-14T07:58:16Z",
 			"content": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"

@@ -4,8 +4,9 @@ const useFetch = (url) => {
 	const [data, setData] = useState(null);
 	const [isPenging, setIsPenging] = useState(true);
 	const [error, setError] = useState(null);
+	const abortCont = new AbortController();
 	useEffect(() => {
-		fetch(url)
+		fetch(url, { signal: abortCont.signal })
 			.then(db => {
 				if (!db.ok) {
 					throw Error('could not fetch the data');
@@ -18,9 +19,14 @@ const useFetch = (url) => {
 				setError(false);
 			})
 			.catch(err => {
-				setError(err.message);
-				setIsPenging(false);
+				if (err.name === 'AbortError') {
+					console.log('fetch aborted');
+				} else {
+					setError(err.message);
+					setIsPenging(false);
+				}
 			})
+		return () => abortCont.abort();
 	}, [url]);
 	return { data, isPenging, error };
 }

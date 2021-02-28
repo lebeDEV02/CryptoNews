@@ -1,7 +1,7 @@
 import useFetch from './useFetch';
 import ArticlesList from './ArticlesList';
 const Articles = () => {
-	const { data: blogs, isPenging, error } = useFetch('http://localhost:10000/articles')
+	const { data: blogs, isPenging, error } = useFetch('http://localhost:8000/articles')
 	return (
 		<section className="articles">
 			<div className="container">

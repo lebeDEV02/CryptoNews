@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 import Sidebar from './Sidebar';
 
 const TechNews = () => {
-	const { data: blogs, isPenging, error } = useFetch('http://localhost:9000/news')
+	const { data: blogs, isPenging, error } = useFetch('http://localhost:8000/technews')
 	return (
 		<section className="tech-news">
 			<div className="tech-news__inner">

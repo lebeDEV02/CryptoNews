@@ -2,7 +2,7 @@ import CryptoNewsList from './CryptoNewsList';
 import useFetch from './useFetch';
 
 const CryptoNews = () => {
-	const { data: blogs, isPenging, error } = useFetch('http://localhost:8000/news')
+	const { data: blogs, isPenging, error } = useFetch('http://localhost:8000/cryptonews')
 	return (
 		<div className="main__inner">
 			<section className="filters-section">

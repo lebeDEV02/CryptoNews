@@ -1,20 +1,22 @@
+import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
+
 		<header className="header">
 			<div className="container">
 				<div className="header__inner">
-					<a className="header__inner-logolink" href="index.html">
+					<Link className="header__inner-logolink" to="/">
 						<h6 className="header__inner-logo">CryptoNews</h6>
-					</a>
-					<ul className="header__inner-menu">
-						<li className="header__inner-item"><a className="header__inner-link" href="#">Home</a></li>
-						<li className="header__inner-item"><a className="header__inner-link" href="#">All News</a></li>
-						<li className="header__inner-item"><a className="header__inner-link" href="#">Info</a></li>
-						<li className="header__inner-item"><a className="header__inner-link" href="#">Categories</a></li>
-					</ul>
+					</Link>
+					<Link className="header__inner-link" to="/">Home</Link>
+					<Link className="header__inner-link" to="/all-news">All News</Link>
+					<Link className="header__inner-link" to="/info">Info</Link>
+					<Link className="header__inner-link" to="/categories">Categories</Link>
+					<Link className="header__inner-link" to="/login">Login</Link>
 				</div>
 			</div>
 		</header>
+
 	);
 }
 
