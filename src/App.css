@@ -538,7 +538,7 @@ main {
 	cursor: pointer;
 }
 
-.technew-details__title, .cryptonew-details__title {
+.technew-details__title, .cryptonew-details__title, .article-details__title {
 	font-size: 42px;
 	margin: 20px 0;
 }
@@ -549,7 +549,7 @@ main {
 	max-width: 900px;
 }
 
-.technew-details__content, .cryptonew-details__content {
+.technew-details__content, .cryptonew-details__content, .article-details__content {
 	font-size: 24px;
 	margin: 20px 0;
 }
