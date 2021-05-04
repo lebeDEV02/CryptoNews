@@ -1,0 +1,41 @@
+.header {
+	background-color: #090909;
+	color: #fff;
+}
+
+.header__inner {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.header__logolink {
+	font-size: 48px;
+	display: block;
+	color: #fff;
+	line-height: 46px;
+	transition: all .3s;
+}
+
+.header__logolink:hover {
+	transform: rotateZ(-5deg);
+}
+
+.header__menu {
+	display: flex;
+}
+
+.header__item+.header__item {
+	margin-left: 25px;
+}
+
+.header__link {
+	color: #fff;
+	font-size: 20px;
+	transition: all .3s;
+}
+
+.header__link:hover {
+	color: rgb(255, 75, 75);
+}

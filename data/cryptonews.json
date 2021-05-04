@@ -1,0 +1,157 @@
+{
+	"cryptonews": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Bill Gates says cryptocurrency is one innovation the world could do without",
+			"description": "Bill Gates, the Microsoft co-founder and technological whiz turned philanthropist, may not be a fan of bitcoin and digital-assets.",
+			"coverImage": "https://images.mktw.net/im-300849?width=1260&size=1.5005861664712778",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Bill Gates, the Microsoft co-founder and technological whiz turned philanthropist, may not be a fan of bitcoin and digital-assets. Asked during an interview published on Thursday with The Wall Street Journal what technological advancement the world could do without, Gates had this to say “The way cryptocurrency works today allows for certain criminal activities. It’d be good to get rid of that,” he quickly added: “I probably should have said bio weapons. That’s a really bad thing.”"
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Blockchain.com raised $ 120 million in investments",
+			"description": "Cryptocurrency wallet provider Blockchain.com has raised $ 120 million in funding from macro investors including Moore Strategic Ventures, Google Ventures, Lightspeed Venture Partners and others.",
+			"coverImage": "https://techcrunch.com/wp-content/uploads/2021/02/andre-francois-mckenzie-JrjhtBJ-pGU-unsplash.jpg?w=1390&crop=1",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Blockchain.com has announced that it has raised a $120 million funding round. The company develops a popular cryptocurrency wallet as well as an exchange, an explorer and more. Moore Strategic Ventures, Kyle Bass, Access Industries, Rovida Advisors, Lightspeed Venture Partners, GV, Lakestar, Eldridge and other unnamed investors participated in today’s funding round. Overall, the company has raised more than $190 million since its creation Originally named Blockchain.info, the company started off as a blockchain explorer. An explorer lets you enter the hash of any transaction that occurs on the bitcoin blockchain to get more information about the amount, fees, number of confirmations as well as the wallet addresses of the sender and the receiver. Over time, explorers started adding support for more blockchains and more types of data Blockchain.com then built an open-source bitcoin wallet — it now supports more cryptocurrencies and stablecoins. The company’s wallet is a noncustodial wallet, which means that you’re in control of your private keys. Other noncustodial wallets include Coinbase Wallet, Argent, ZenGo, etc."
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Bitcoin Climbs Above $52,000 as Musk Backs Crypto Over Cash",
+			"description": "Billionaire Elon Musk defended Tesla Inc.’s $1.5 billion Bitcoin funding on Twitter, calling the cryptocurrency a “less dumb” model of cash.",
+			"coverImage": "//images.hindustantimes.com/tech/img/2021/02/19/600x338/2021-02-19T114549Z_1507401579_RC2NVL9QZHQ0_RTRMADP_3_CRYPTO-CURRENCY-BITCOIN_1613742609659_1613742643577.JPG",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Billionaire Elon Musk defended Tesla Inc.’s $1.5 billion Bitcoin funding on Twitter, calling the cryptocurrency a “less dumb” model of cash. “When fiat currency has negative real interest, only a fool wouldn’t look elsewhere,” Musk stated in a reference to the sub-zero returns on cash attributable to negative-yielding debt. The feedback pushed Bitcoin to a document on Friday, with costs climbing above $52000 In a way, Musk’s feedback sum up one of many massive points dealing with markets this year. With a lot cash being pumped into the monetary system from governments combating the pandemic, buyers are more and more apprehensive about inflation and in search of different locations to place their money “Having some Bitcoin, which is simply a less dumb form of liquidity than cash, is adventurous enough for an S&P 500 company,” Musk wrote, including that Tesla’s resolution to purchase Bitcoin doesn’t immediately mirror his opinion “Bitcoin is almost as bs as fiat money. The keyword is ‘almost,’” he added Bitcoin was up 1.2% on the day at $52669 as of 11: 10 a.m. in London. Just this week, costs have jumped about 10%."
+		}
+	],
+	"technews": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Margaret Mitchell: Google fires AI ethics founder",
+			"description": "Google has fired the founder and co-head of its artificial intelligence ethics unit, claiming she violated the company's code of conduct.",
+			"coverImage": "https://ichef.bbci.co.uk/news/976/cpsprodpb/18299/production/_115796989_gettyimages-1028811892.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Google has fired the founder and co-head of its artificial intelligence ethics unit, claiming she violated the company's code of conduct. In a statement, Google said an investigation found Margaret Mitchell had moved files outside the company. The ethics unit has been under scrutiny since December, following the departure of another senior figure, Timnit Gebru. Both women had campaigned for more diversity at Google and raised concerns about censorship within the company. Dr Mitchell announced the news in a tweet, which read 'I'm fired'. For the past five weeks she had been locked out of Google's systems, including her emails and calendars."
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Nvidia limits crypto-mining on new graphics card",
+			"description": "Graphics card-maker Nvidia says it will deliberately reduce the efficiency of its latest card by 50% when it is used to mine the crypto-currency Ethereum.",
+			"coverImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/4BA7/production/_117076391_nvidia.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Graphics card-maker Nvidia says it will deliberately reduce the efficiency of its latest card by 50% when it is used to mine the crypto-currency Ethereum. Crypto-currency enthusiasts have contributed to a shortage of graphics cards by snapping up supplies to use for non-gaming purposes Nvidia said it had intervened to make sure its products «end up in the hands of gamers» But it will also sell a bespoke crypto-currency mining processor."
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Tech Tent: Facebook v Australia - two sides to the story",
+			"description": "The battle between the Australian government and the tech giants over a law which would make them for news content has been rumbling on for a while.",
+			"coverImage": "https://ichef.bbci.co.uk/news/976/cpsprodpb/0CF6/production/_117081330_zuck-getty-1.jpg",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "The battle between the Australian government and the tech giants over a law which would make them pay for news content has been rumbling on for a while. But Facebook's move to ban all Australian news content from its platform has taken the conflict to a whole new level One of Rupert Murdoch's newspapers described «it as an act of war». But others see the actions of Australia's politicians as being an outrage against the principle of net neutrality This week's Tech Tent podcast asks whether Mark Zuckerberg overplayed his hand, making it more likely that other countries will follow Australia's lead."
+		}
+	],
+	"articles": [
+		{
+			"id": 1,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "How to buy bitcoin?",
+			"description": "Bitcoins can be bought for US dollars, euros or another fiat or cryptocurrency on a crypto exchange, directly from other individuals, or using a special ATM. It’s good to know that you can buy fractions of a bitcoin. So you don’t have to...",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Signing up for a cryptocurrency exchange will allow you to buy, sell, and hold cryptocurrency. It is generally best practice to use an exchange that allows its users to also withdrawal their crypto to their own personal wallet for safer keeping. There are many exchanges and brokerage platforms that do not allow this. For those looking to consistently trade Bitcoin or other cryptocurrencies, this feature may not matter.There are many types of cryptocurrency exchanges that exist. With the ethos of Bitcoin being decentralization and individual sovereignty, some exchanges allow users to remain anonymous and do not require users to enter personal information. Exchanges that allow this operate autonomously and are typically decentralized which means there is no central point of control. In other words, there is no CEO and no person or group for any regulatory body to pursue should it have concerns over illegal activity taking placeWhile these types of systems do have the potential to be used for nefarious activities, they also provide services to the unbanked world. People like this may include refugees or those living in countries where there is little to no government or banking infrastructure to provide a state identification required for a bank or investment account. Some believe the good in these services outweigh the potential for illegal use as unbanked people now have a means of storing wealth and can use it to climb out of povertyRight now, the most commonly used type of exchanges are not decentralized and do require KYC. In the United States, these exchanges include Coinbase, Kraken, Gemini, and Binance U.S., to name a few. Each of these exchanges has grown significantly in the number of features they offer. Coinbase, Kraken, and Gemini offer Bitcoin and a growing number of altcoins. These three are probably the easiest on-ramp to crypto in the entire industry. Binance caters to a more advanced trader, offering more serious trading functionality and numerous altcoins to choose fromAn important thing to note when creating a cryptocurrency exchange account is to use safe internet practices. This includes using two-factor authentication and using a password that is unique and long, including a variety of lowercase letters, capitalized letters, special characters, and numbers."
+		},
+		{
+			"id": 2,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "Can I Create My Own Cryptocurrency?",
+			"description": "Sure! You don’t even need to be a programmer to create your own cryptocurrency. Several existing blockchain platforms let you to make your own currency – as a community coin, a joke, or for any other reason. They make creating a...",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "Can I create my own cryptocurrency? Sure! You don’t even need to be a programmer to create your own cryptocurrency. The open-source nature of the cryptoverse makes it a relatively easy task. How to create your own cryptocurrency? Many existing blockchain platforms can help you to create your own cryptocurrency – as a community coin, a joke, an actual solution to a real-world problem, or for any other reason. What does it take to make a cryptocurrency? In the case of the platforms, often not much. They make creating a cryptocurrency as easy as filling out a web form: just specify a name, how many coins you will need and a few other details, and there you have it — your own cryptocurrency! You can find most open-source codes of existing blockchains on GitHub. After obtaining a code, you may also want to make changes to it to make sure it allows you to fulfill the purpose of your project. Note that if you use an established blockchain, your coin is also more secure from the start and could benefit from additional built-in features. If you wonder ‘’how to create my own cryptocurrency from scratch’’, it includes building a distributed ledger which demands a lot of work. However, it will also give you more freedom and control over your coin, ledger, and its features. You may also choose to fork one of the already existing open-source blockchain projects by changing some of its rules to fit your purpose. Though, you should have in mind that forking a project doesn’t copy its entire ecosystem and stakeholders along with the code. You will have to figure out the incentives and create a functioning ecosystem to make it all work. Most new cryptocurrencies are basically worthless, especially if there is no one else but you to verify the transactions."
+		},
+		{
+			"id": 3,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "How do cryptocurrencies differ?",
+			"description": "The main differences relate to how coins are produced and spent. Some coins, like Bitcoin, Dash and Monero, are created in a process called “mining” which involves using powerful computers to solve complicated cryptographic puzzles. When...",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "The main differences relate to how coins are produced and spent. Some coins, like Bitcoin, Dash and Monero, are created in a process called “mining” which involves using powerful computers to solve complicated cryptographic puzzles. When a puzzle is solved, the system rewards the winning “miner” with coins (bitcoins, dash coins, etc.). The miner can then sell the coins in the market Other coins, like NEM (XEM), have other types of algorithms that don’t require powerful hardware. And then there are currencies such as ripple and IOTA that can’t be mined – they’re produced by an organization that stands behind the currency When it comes to spending, Bitcoin is the cryptocurrency that enjoys the widest acceptance among merchants and service providers. Others, like Litecoin and Dash, are working on giving their holders new spending possibilities. But daily use – buying coffee, clothes and so on – is not the primary goal of some coins. Ether, for example, is meant to be used to pay for the services of the blockchain-based Ethereum platform, to create and use applications on it Other important differences are the privacy and transaction speed that a cryptocurrency offers. At the moment, transactions in Bitcoin are slower and less anonymous, than, say, those in dash or monero. But Bitcoin could add features to increase its privacy and speed in the future, especially since it currently boasts the biggest developer ecosystem."
+		},
+		{
+			"id": 4,
+			"source": "newsBTC",
+			"tags": [
+				"business",
+				"bitcoin"
+			],
+			"author": "Nick Chong",
+			"title": "MicroStrategy Spent USD 15M on Bitcoin Dip",
+			"description": "The main differences relate to how coins are produced and spent. Some coins, like Bitcoin, Dash and Monero, are created in a process called “mining” which involves using powerful computers to solve complicated cryptographic puzzles. When...",
+			"publishedAt": "2021-02-14T07:58:16Z",
+			"content": "One of the most bullish non-crypto companies, US-based software developer MicroStrategy, just used the recent bitcoin (BTC) correction to increase their BTC stash. Per CEO Michael Saylor, the company has purchased an additional BTC 328 for around USD 15m in cash at an average price of USD 45, 710 per BTC. As of today, MicroStrategy now owns BTC 90, 859, acquired for USD 2.186bn at an average price of USD 24, 063 per bitcoin, he added. This stash is now worth almost USD 4.4bn. At the time of writing (13: 24 UTC), BTC trades at USD 48, 392 and is up by 8% in a day, trimming its weekly losses to 16%. The price rallied by 42% in a month. Last week, MicroStrategy said it acquired BTC 19,452, paying an average price of approximately USD 52, 765 per BTC. They also confirmed that the company will keep buying BTC with `excess cash` and they might issue new debt or equity securities to buy more of the most popular cryptocurrency."
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"login": "admin",
+			"password": "pa$$word"
+		},
+		{
+			"id": 2,
+			"login": "parker",
+			"password": "root666"
+		}
+	],
+	"tokens": []
+}
