@@ -1,5 +1,6 @@
 import useFetch from '../customHooks/useFetch'
 import ArticlesList from './lists/articleslist';
+import Link from "next/link"
 const Articles = () => {
 	const { data: blogs, isPenging, error } = useFetch('http://localhost:8000/articles')
 	return (
@@ -7,9 +8,9 @@ const Articles = () => {
 			<div className="container">
 				<div className="articles__top">
 					<h4 className="articles__top-inscription title-junior">Articles</h4>
-					<a className="articles__top-link" href="#">
+					<Link href="/articles"><a className="articles__top-link">
 						<p className="articles__top-all">All Articles</p>
-					</a>
+					</a></Link>
 				</div>
 				{error && <div>{error}</div>}
 				{isPenging && <div>Loading...</div>}

@@ -9,7 +9,7 @@ const Header = () => {
 						<h6 className="header__inner-logo">CryptoNews</h6>
 					</a>
 					<Link href="/"><a className={styles.header__link} >Home</a></Link>
-					<Link href="/all-news"><a className={styles.header__link}>All News</a></Link>
+					<Link href="/cryptonews	"><a className={styles.header__link}>All News</a></Link>
 					<Link href="/info"><a className={styles.header__link} >Info</a></Link>
 					<Link href="/categories"><a className={styles.header__link} >Categories</a></Link>
 					<Link href="/login"><a className={styles.header__link} >Login</a></Link>

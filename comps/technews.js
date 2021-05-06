@@ -7,7 +7,7 @@ const TechNews = () => {
 	return (
 		<section className="tech-news">
 			<div className="tech-news__inner">
-				<Sidebar title="News about Tech" about="Read the latest and hottest high tech news!" button="Read All"></Sidebar>
+				<Sidebar title="News about Tech" about="Read the latest and hottest high tech news!" button="Read All" to={"/technews"}></Sidebar>
 				{error && <div>{error}</div>}
 				{isPenging && <div>Loading...</div>}
 				{blogs && <TechNewsList blogs={blogs}></TechNewsList>}
