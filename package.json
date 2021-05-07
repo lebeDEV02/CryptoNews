@@ -1,16 +1,19 @@
 {
-  "name": "crypto-news",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "netlify-identity-widget": "^1.9.1",
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+	"name": "crypto-news",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "concurrently --kill-others \"next dev\" \"json-server --watch ./data/cryptonews.json --port 8000\"",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"netlify-identity-widget": "^1.9.1",
+		"next": "10.2.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"concurrently": "^6.0.2"
+	}
 }
