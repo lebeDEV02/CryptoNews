@@ -5,9 +5,9 @@ const Header = () => {
 		<header className={styles.header}>
 			<div className="container">
 				<div className={styles.header__inner}>
-					<a className={styles.header__logolink} href="/">
+					<Link href="/"><a className={styles.header__logolink} >
 						<h6 className="header__inner-logo">CryptoNews</h6>
-					</a>
+					</a></Link>
 					<Link href="/"><a className={styles.header__link} >Home</a></Link>
 					<Link href="/cryptonews	"><a className={styles.header__link}>All News</a></Link>
 					<Link href="/info"><a className={styles.header__link} >Info</a></Link>
