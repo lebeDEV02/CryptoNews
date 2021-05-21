@@ -3,9 +3,10 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "concurrently --kill-others \"next dev\" \"json-server --watch ./data/cryptonews.json --port 8000\"",
+		"dev": "next dev",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"server": "json-server --watch ./data/cryptonews.json --port 8000"
 	},
 	"dependencies": {
 		"netlify-identity-widget": "^1.9.1",
